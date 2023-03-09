@@ -1,24 +1,24 @@
-apiVersion: v1
-kind: Secret
-metadata:
-  name: test-secret
-  namespace: argotest
-  labels:
-    spi.appstudio.redhat.com/upload-secret: token
-    # spi.appstudio.redhat.com/token-name: mytoken
-    # my-spi-access-token_2023_03_02__15_37_28
-    #my-liben-quay
+# apiVersion: v1
+# kind: Secret
+# metadata:
+#   name: test-secret
+#   namespace: argotest
+#   labels:
+#     spi.appstudio.redhat.com/upload-secret: token
+#     # spi.appstudio.redhat.com/token-name: mytoken
+#     # my-spi-access-token_2023_03_02__15_37_28
+#     #my-liben-quay
 
-type: Test
-#test: test
-stringData:
-#  providerUrl: https://github.com
-#  tokenData: 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
-  providerUrl: https://quay.io
-  #providerUrl: "https://test.com"
-  tokenData: PF6EKI8HLXJICMTT0DKZE7IS8XXVV1URZV6ROEUR9544VKOL9DGUMMA9AM605OBI
-  spiTokenName: spi-token
-  userName: gazarenk+mybot
+# type: Test
+# #test: test
+# stringData:
+# #  providerUrl: https://github.com
+# #  tokenData: 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
+#   providerUrl: https://quay.io
+#   #providerUrl: "https://test.com"
+#   tokenData: PF6EKI8HLXJICMTT0DKZE7IS8XXVV1URZV6ROEUR9544VKOL9DGUMMA9AM605OBI
+#   spiTokenName: spi-token
+#   userName: gazarenk+mybot
 #apiVersion: appstudio.redhat.com/v1beta1
 #kind: SPIAccessToken
 #metadata:
