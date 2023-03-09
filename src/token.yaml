@@ -1,0 +1,7 @@
+apiVersion: appstudio.redhat.com/v1beta1
+kind: SPIAccessToken
+metadata:
+  name: mytoken
+  namespace: argotest
+spec:
+  serviceProviderUrl: github.com
